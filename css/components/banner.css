@@ -1,0 +1,40 @@
+.banner {
+    background-image: url(https://res.cloudinary.com/drirexwsz/image/upload/v1648227051/Le_Wagon_Barbican_II_170_LowRes_gwzp2w.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 260px 0;
+    align-items: center;
+}
+
+.banner h1 {
+    color: white;
+    display: block;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgb(6 6 6);
+    width: max-content;
+    margin-bottom: -1%;
+    margin-left: 50px;
+  }
+
+.banner p {
+  display: block;
+  color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgb(6 6 6);
+    width: max-content;
+    margin-left: 50px;
+}
+
+.btn-primary {
+    display: block;
+    background-color: #1EDD88;
+    padding: 16px 36px;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+    width: fit-content;
+    align-self: center;
+    margin-left: 50px;
+}
