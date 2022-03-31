@@ -1,8 +1,8 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700");
 
 /* Fontawesome */
-@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
 
 /* Components */
 
@@ -10,14 +10,21 @@
 @import url("components/cards.css");
 @import url("components/footer.css");
 
-
 /* Utilities */
+html,
 body {
-  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
   font-family: Open Sans;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: Poppins;
 }
 
@@ -25,18 +32,49 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width: 800px) {
   /* For tablets: */
-  .body, .footer, .banner, .cards {
-    width: 100%;
-    padding: 0;
-}
+  .banner {
+    background-image: url(https://res.cloudinary.com/drirexwsz/image/upload/v1646164997/mk7l2marousx3hfkdh93g3oz6p2v.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10 5px;
+  }
 
-@media only screen and (max-width:500px) {
+  .container {
+    display: block;
+  }
+
+  .banner h1 {
+    /* margin: unset; */
+    margin-bottom: -30px;
+
+  }
+
+  .banner p {
+    margin-left: 96px;
+  }
+
+  .btn-primary {
+    /* margin: unset; */
+    margin-top: -10px;
+    margin-left: 125px;
+  }
+
+  .cards {
+    display: block;
+    margin-left: 123px;
+  }
+
+  .container-fluid {
+    margin-left: -38px;
+  }
+
+  /* @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .body, .footer, .banner, .cards {
+  /* .body, .container-fluid, .footer, .banner, .cards {
     width: 100%;
   }
-}
-/* Custom design below! */
+} */
+  /* Custom design below! */
 }
